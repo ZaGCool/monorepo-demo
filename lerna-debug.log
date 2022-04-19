@@ -1,0 +1,17 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: 'nx-docs',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: 'zag-ui'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/ZaG/Desktop/p7训练营课件/正课/day06- Monorepo架构/lerna-02
+3 error FetchError: request to http://localhost:4873/zag-ui failed, reason: connect ECONNREFUSED 127.0.0.1:4873
+3 error     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/lerna/node_modules/minipass-fetch/lib/index.js:110:14)
+3 error     at ClientRequest.emit (node:events:526:28)
+3 error     at Socket.socketErrorListener (node:_http_client:442:9)
+3 error     at Socket.emit (node:events:538:35)
+3 error     at emitErrorNT (node:internal/streams/destroy:157:8)
+3 error     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
